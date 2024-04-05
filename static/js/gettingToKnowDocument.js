@@ -82,3 +82,12 @@ let heroText = document.getElementsByClassName('hero-text')[0]
 
 // Element.before(elementToAdd) -- add the elementToAdd BEFORE (as a sibling) the Element
 heroText.before(newHeader);
+
+
+
+const button = document.getElementById('backgroundChanger');
+
+button.addEventListener("click", function() {
+    const curColour = document.body.style.backgroundColor;
+    document.body.style.backgroundColor = curColour === 'red' ? 'blue' : 'red';
+});
