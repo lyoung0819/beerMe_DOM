@@ -33,3 +33,7 @@ function changeBackgroundColor(e){
 }
 
 
+// Essentially for Events, you need 3 things:
+// 1) addEventListener (so it knows to listen for a type of event)
+// 2) the event to happen itself (like a user clicking the button)
+// 3) eventHandler() - what you want to happen when an event occurs 
